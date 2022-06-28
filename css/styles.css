@@ -430,7 +430,7 @@ bi-circle-fill {
 
 .footer {
   margin: 2px auto 2px auto;
-  transform: translateY(-100px);
+  transform: translateY(-20px);
   position: relative;
   opacity: 0;
   transition: 1s all ease;
@@ -554,11 +554,6 @@ bi-circle-fill {
   .worktasks {
     font-size: 12px;
   }
-
-.footer {
-  margin: 2px auto 
-  position: relative;
-}
 }
 
 @media all and (max-width: 750px) {
