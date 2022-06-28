@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Vitaliy Porsnev</title>
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script>
+    $(function() {
+      $(document).scroll(function() {
+        var $nav = $(".navbar");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+    });
+  </script>
+
+  <!-- Fontawesome CDN -->
+  <script src="https://kit.fontawesome.com/37ebeafa48.js" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="hero-image">
+    <!-- Nav Bar -->
+    <nav class="navbar fixed-top navbar-expand-lg">
+      <a class="navbar-brand" st href="">Vitaliy Porsnev</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">🇬🇧</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="RU.html">🇷🇺</a>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutme">Über Mich</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#workexpereince">Beruflicher Werdegang</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Fähigkeiten</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Title -->
+    <div class="hero-text">
+      <h1 style="font-size:50px">Ich bin Vitaliy Porsnev</h1>
+      <p>Erfahren in die Lagerung, Logistik, Sales, Hotellerie und Gastronomie branchen. Technologie-Enthusiast.</p>
+    </div>
+  </div>
+
+  <!-- About Me -->
+
+  <section id="aboutme" class="shadow p-3 mb-5 bg-body">
+    <br>
+    <h2 class="quote"><i><i class="fas fa-quote-left"></i> Es gibt kein Glück, außer in der Erkenntnis<br>dass wir etwas erreicht haben. <i class="fas fa-quote-right"></i></i></h2>
+    <br>
+    - Henry Ford
+    <p class="letter">Hallo,<br>
+      <br>
+      Mein Name ist Vitaliy Porsnev, ich bin 29 Jahre alt und wurde in Vilnius, Litauen, geboren. Derzeit lebe ich in München, Deutschland.
+      <br>
+Kontaktfreudig und kundenorientiert mit starken Führungs- und Zeitmanagementfähigkeiten.
+Erfahren in die Lagerung, Logistik, Sales, Hotellerie und Gastronomie branchen.
+      <br>
+      <br>
+      Interessiert an Informationstechnologien, e-Commerce und Spieleindustrie. Neuling in der Web-Entwicklung.
+      <br>
+      <br>
+      Mehrsprachiger Sprecher und
+      fortgeschrittener Computerbenutzer. Angetrieben durch den Erwerb von Wissen, das Erreichen von Zielen und
+      internationale Erfahrung.
+    </p>
+  </section>
+
+  <!-- Work Experience -->
+
+  <section id="workexpereince">
+    <div id="experience-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h3 class="carousel-text">Mein allererster Job war die Schauspielerei. Ich hatte einige Rollen in verschiedenen Werbespots und in einem abendfüllenden Film des italienischen Regisseurs und Oscar-Preisträgers Gabriele Salvatores namens "Siberian Education".</h3>
+          <img class="experience-image" src="images/sibed.jpg" alt="sibed">
+          <em><a href="https://www.imdb.com/title/tt1697064/" target="_blank">Siberian Education</a></em>
+        </div>
+        <div class="carousel-item">
+          <h3 class="carousel-text">- Empfang und Verarbeitung der Ware und
+Materialien
+            <br>
+            - Aufnahme und Zusammentragen von Bestellungen
+            <br>
+            - Inventur
+            <br>
+            - Organisieren des Bestands.</h3>
+          <img class="experience-image" src="images/komandor.png" alt="komandorlogo">
+          <em>
+            <h4>Warenhaus Manager</h4>
+            <a class="companywebsite" href="https://www.komandor.com/" target="_blank">Komandor</a>
+            <p>Vilnius, Litauen<br>MAI-2012 - AUGUST-2013</p>
+          </em>
+        </div>
+        <div class="carousel-item">
+          <h3 class="carousel-text">- Logistik Arbeit und Transportverkauf mit Firmen in
+Russland und Kasachstan.</h3>
+          <img class="experience-image" src="images/portus-logo.png" alt="portuslogo">
+          <em>
+            <h4>Vertriebsbeauftragter</h4>
+            <a class="companywebsite" href="https://portus.lt/aboutus/" target="_blank">Portus Logistika</a>
+            <p>Vilnius, Litauen<br>SEPTEMBER-2013 - JANUAR-2014</p>
+          </em>
+        </div>
+        <div class="carousel-item">
+          <h3 class="carousel-text">- Verwaltung von Akten und Buchhaltungswesen
+            <br>
+            - Leiten von Veranstaltungen
+            <br>
+            - HR
+            <br>
+            - Lösen von Konflikten mit Kunden und Lieferanten
+            <br>
+            - Social Media Management.</h3>
+          <img class="experience-image" src="images/Zoes-Logo.png" alt="zoeslogo">
+          <em>
+            <h4>Restaurant Manager</h4>
+            <a class="companywebsite" href="https://www.zoesbargrill.com" target="_blank">Nordic Entertainment</a>
+            <p>Vilnius, Litauen<br>MAI-2014 - SEPTEMBER-2017</p>
+          </em>
+        </div>
+        <div class="carousel-item">
+          <h3 class="carousel-text">- Verwaltung von Akten und Buchhaltungswesen
+            <br>
+            - Leiten von Veranstaltungen
+            <br>
+            - Lösen von Konflikten mit Kunden und Lieferanten
+            <br>
+            - Social Media Management.</h3>
+          <img class="experience-image" src="images/grey_logo.png" alt="greylogo">
+          <em>
+            <h4>Restaurant Manager</h4>
+            <a class="companywebsite" href="https://www.restoranasgrey.lt" target="_blank">Juta Jazz Kava</a>
+            <p>Vilnius, Litauen<br>OKTOBER-2017 - APRIL-2018</p>
+          </em>
+        </div>
+        <div class="carousel-item">
+          <h3 class="carousel-text">- Kundenbetreuung beim F&B Abteilung
+nach den hohen Standards
+            <br>
+            - Mitarbeiterbetreuung und Einlernen der
+Auszubildenden</h3>
+          <img class="experience-image" src="images/hilton-hotels-logo.jpg" alt="hiltonlogo">
+          <em>
+            <h4>Chef De Rang</h4>
+            <a class="companywebsite" href="https://www3.hilton.com/en/hotels/bavaria/hilton-munich-park-MUCHITW/index.html" target="_blank">Hilton Munich Park</a>
+            <p>München, Deutschland<br>JUNI-2018 - jetzt</p>
+          </em>
+        </div>
+        <a class="carousel-control-prev" href="#experience-carousel" role="button" data-slide="prev">
+          <i class="fas fa-chevron-circle-left"></i></a>
+        <a class="carousel-control-next" href="#experience-carousel" role="button" data-slide="next">
+          <i class="fas fa-chevron-circle-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+
+  <section id="skills" class="shadow p-3 mb-5 bg-body">
+    <div class="skills">
+      <div class="education">
+        <h3>Bildung</h3>
+        <p>Business Management And Administration
+          <br> Vilnius University
+          <br> Vilnius, Litauen</p>
+      </div>
+
+      <div class="languages">
+        <h3>Sprachen</h3>
+        <table cellspacing="3" , cellpadding="5">
+          <tr>
+            <td>Russisch ⦿⦿⦿⦿⦿</td>
+            <td>Englisch ⦿⦿⦿⦿⦾</td>
+          </tr>
+          <tr>
+            <td>Litauisch ⦿⦿⦿⦿⦿</td>
+            <td>Deutsch ⦿⦿⦿⦾⦾</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="skillslist">
+        <h3>Fähigkeiten</h3>
+        <ul>
+          <li class="skillsli"> Kundenbetreuung
+          <li class="skillsli"> fortgeschrittener Computerbenutzer (CSS, HTML; MS Office; Wordpress; Social Media etc.)
+          <li class="skillsli"> Zeitmanagement
+          <li class="skillsli"> Mitarbeiterführung
+          <li class="skillsli"> Führungsqualitäten
+          <li class="skillsli"> Sales
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Downloads -->
+
+  <section id="downloads">
+    <div class="downloadlinks">
+      <div class="pdf_ger"><a href="https://www.dropbox.com/s/0mp0n9mecddiegx/VitaliyPorsnevCVDE.pdf?dl=0"><img src="images/pdf.png" alt="pdf_icon"><br>Download PDF in Deutsch</a></div>
+      <div class="pdf_eng"><a href="https://www.dropbox.com/s/p47ditw746ws77v/VitaliyPorsnevCVENG.pdf?dl=0"><img src="images/pdf.png" alt="pdf_icon"><br>Download PDF in Englisch</a></div>
+      <div class="pdf_ru"><a href="https://www.dropbox.com/s/8iu7vox6fqrcgdb/VitaliyPorsnevCVRU.pdf?dl=0x"><img src="images/pdf.png" alt="pdf_icon"><br>Download PDF in Russisch</a></div>
+</div>
+</section>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <a class="contact" href="https://www.facebook.com/vitalij.porshnev/" target="_blank"><i class="socialicon fab fa-facebook-f"></i></a> <a class="contact" href="https://www.linkedin.com/in/vitalijporshnev/" target="_blank"><i
+        class="socialicon fab fa-linkedin"></i></a> <a class="contact" href="mailto:v.porshnev@gmail.com" target="_blank"><i class="socialicon fas fa-envelope"></i></a>
+    <p>© Copyright 2020 Vitaliy Porsnev</p>
+
+  </footer>
+</body>
+
+</html>

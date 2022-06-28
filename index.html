@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Vitaliy Porsnev</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Fontawesome CDN -->
+  <script src="https://kit.fontawesome.com/37ebeafa48.js" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="hero">
+    <div class="hero-text">
+      <h1 class="myname">I am Vitaliy Porsnev</h1>
+      <p>A beginner &lt<span style="color:#FF6464">web</span>&gt developer.<br>Experienced in gastronomy, customer service, logistcs, sales.<br> Technology enthusiast.<br><br><a class="chevron" href="#shortcuts"><span class="scroll">SCROLL<br class="br1"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-chevron-compact-down" viewBox="0 10 16 10">
+  <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
+</svg></a></span></p>
+    </div>
+    <div class="hero-image">
+    </div>
+<!--
+       <header class="page-header">
+      <a class="page-header__item logo" st href="">Vitaliy Porsnev</a>
+      <input id="menu-toggle" type="checkbox">
+      <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button' onclick="myFunction()"></div>
+      </label>
+      <ul role="menubar" class="navigation-list">
+        <li class="nav-item">
+          <a class="nav-link" href="#workexpereince">Work Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">Contact</a>
+        </li>
+         <li class="nav-item flag">
+            <a class="nav-link" href="DE.html">🇩🇪</a>
+          </li>
+         <li class="nav-item">
+            <a class="nav-link" href="RU.html">🇷🇺</a>
+          </li>
+      </ul>
+
+    </header> -->
+    <!-- <div class="hero-text">
+      <h1 style="font-size:50px">I am Vitaliy Porsnev</h1>
+      <p>A beginner &lt<span style="color:#FF6464">web</span>&gt developer.<br>Experienced in gastronomy, customer service, logistcs, sales.<br> Technology enthusiast.</p>
+    </div> -->
+</section>
+
+  <section id="shortcuts">
+    <div class="grid">
+      <div class="projects card" data-bs-toggle="modal" data-bs-target="#exampleModal"><p>Projects</p></div>
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-scrollable">
+    <div class="modal-content modalblur">
+      <div class="modal-body">
+        <h1>Pokedex App</h1>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-interval="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="project-pic"><a href="https://vporsnev.github.io/simple-js-app/" target="_blank"><img src="images/pokemon_main.png" class="pic d-block w-100" alt="..."></div></a>
+              <div class="project-description">
+                <h3>About</h3>
+                <p>This is a small  web  application  with  HTML,   CSS,   and  JavaScript  that  loads data  from  an  external  API  and  enables  the  viewing  of  data  points  in  detail. When a Pokemon is clicked, the image, height, weight and type characteristics of the Pokemon appears on a modal. Alternatively, pokemons can be searched by typing the pokemon name in the search bar. This modal can then be closed by clicking on the "Close" button, pressing the escape key or clicking outside the modal.</p>
+<br>
+                <h3>App dependencies</h3>
+                <p>- jQuery<br>
+                - Bootstrap<br>
+                - Pokémon API<br>
+                - Ajax<br></p>
+<br>
+                <h3>Features</h3>
+                <p>- The  app  loads  data  from  an  external  API.<br>
+                - The  app  displays  a  list  of  items  loaded  from  that  API  after  the  page  is  loaded.<br>  
+                - The  app  enables  the  viewing  of  more  details  for  a  given  list  item  (like  a  Pokémon)  on  demand,  such  as  when  clicking  on  a  list  item.<br>  
+                - The  app  has  CSS  styling.<br>  
+                - The  JavaScript  code  is formatted  according  to  ESLint  rules.<br>  
+                - The  JavaScript  code  is  formatted  via  Prettier.<br>
+                - The  uses  at  least  one  additional  complex  UI  pattern,  such  as  a  modal,  for  details  or  touch  interactions.<br>  
+                - The app allows  searching  for  items  (e.g.,  searching  for  Pokémon).<br>  
+                - The  app  does  not  throw  any  errors  when  being  used.<br>  
+                - The  app  is  deployed  to  a  publicly  accessible  platform  like  GitHub  Pages.<br>
+                - The  app  works  in  Chrome,  Firefox,  Safari,  Edge,  and  Internet  Explorer  11.<br></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+      <div class="work card" data-bs-toggle="modal" data-bs-target="#exampleModal2"><p>Curriculum Vitae</p></div>
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-scrollable">
+    <div class="modal-content modalblur">
+      <div class="modal-body">
+        <h3>Work Experience</h3>
+        <table class="worktable">
+          <tbody>
+            <tr>
+              <td class="workname">
+                <h5>Warehouse Manager</h5><a class="companywebsite" href="https://www.komandor.com/" target="_blank">Komandor</a><br>
+                <p>Vilnius, Lithuania<br>May-2012 - August-2013</p>
+              </td>
+              <td class="worktasks">
+                <p>- receiving and processing incoming stock and materials
+                  <br>
+                  - picking and filling orders
+                  <br>
+                  - stocktaking
+                  <br>
+                  - organizing and systemizing stock.</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="workname">
+                <h5>Sales Representative</h5><a class="companywebsite" href="https://portus.lt/aboutus/" target="_blank">Portus Logistika</a><br>
+                <p>Vilnius, Lithuania<br>September-2013 - January-2014</p>
+              </td>
+              <td class="worktasks">- sales of logistic services in Russian and Kazakhstan markets</td>
+            </tr>
+            <tr>
+              <td class="workname">
+                <h5>Restaurant Manager</h5><a class="companywebsite" href="https://www.zoesbargrill.com" target="_blank">Nordic Entertainment</a><br>
+                <p>Vilnius, Lithuania<br>May-2014 - September-2017</p><br>
+                <a class="companywebsite" href="https://www.restoranasgrey.lt" target="_blank">Juta Jazz Kava</a><br>
+                <p>Vilnius, Lithuania<br>October-2017 - April-2018</p>
+              </td>
+              <td class="worktasks">
+                - records management
+                <br>
+                - events organisation
+                <br>
+                - human resourcing
+                <br>
+                - issue-solving and maintaining relations with guests and suppliers
+                <br>
+                - social media management
+              </td>
+            </tr>
+            <tr>
+              <td class="workname">
+                <h5>Chef De Rang</h5><a class="companywebsite" href="https://www3.hilton.com/en/hotels/bavaria/hilton-munich-park-MUCHITW/index.html" target="_blank">Hilton Munich Park</a><br>
+                <p>Munich, Germany<br>June-2018 - Present</p>
+              </td>
+              <td class="worktasks">- overseeing customer service in Food & Beverage department by the high standards
+                <br>
+                - events organisation
+                <br>
+                - staff training
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="downloadlinks">
+          <div class="pdf_ger"><a class="pdflinks" href="https://www.dropbox.com/s/0mp0n9mecddiegx/VitaliyPorsnevCVDE.pdf?dl=0"><img src="images/pdf.png" alt="pdf_icon"><br>Download PDF in German</a></div>
+          <div class="pdf_eng"><a class="pdflinks" href="https://www.dropbox.com/s/p47ditw746ws77v/VitaliyPorsnevCVENG.pdf?dl=0"><img src="images/pdf.png" alt="pdf_icon"><br>Download PDF in English</a></div>
+          <div class="pdf_ru"><a class="pdflinks" href="https://www.dropbox.com/s/8iu7vox6fqrcgdb/VitaliyPorsnevCVRU.pdf?dl=0x"><img src="images/pdf.png" alt="pdf_icon"><br>Download PDF in Russian</a></div>
+        </div>
+      </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+      <div class="skills card"><p>Skills</p></div>
+    </div>
+  </section>
+
+
+  <!--   Projects
+
+  <section id="projects">
+    <h3>Projects</h3>
+    <div class="grid">
+       Grid items will live here
+      <div class="grid__item">
+        <h2>Mobile web app</h2>
+        <p>
+          Within this project, I was responsible for the frontend. It’s written in React.js. Additionally, I've created the HTML and CSS templates.
+        </p>
+        <a href="#">See project on GitHub</a>
+      </div>
+      <div class="grid__item">
+        <h2>xxx</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras congue arcu et urna convallis, varius facilisis libero semper.
+          Morbi ultrices urna vel sem sagittis maximus. Ut varius arcu velit, aliquet facilisis nunc eleifend ac.
+          Maecenas non est eget nisi fermentum cursus. Duis semper leo nibh, sed convallis ex malesuada quis.
+        </p>
+        <a href="#">See project on GitHub</a>
+      </div>
+      <div class="grid__item">
+        <h2>xxx</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras congue arcu et urna convallis, varius facilisis libero semper.
+          Morbi ultrices urna vel sem sagittis maximus. Ut varius arcu velit, aliquet facilisis nunc eleifend ac.
+          Maecenas non est eget nisi fermentum cursus. Duis semper leo nibh, sed convallis ex malesuada quis.
+        </p>
+        <a href="#">See project on GitHub</a>
+      </div>
+      <div class="grid__item">
+        <h2>xxx</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras congue arcu et urna convallis, varius facilisis libero semper.
+          Morbi ultrices urna vel sem sagittis maximus. Ut varius arcu velit, aliquet facilisis nunc eleifend ac.
+          Maecenas non est eget nisi fermentum cursus. Duis semper leo nibh, sed convallis ex malesuada quis.
+        </p>
+        <a href="#">See project on GitHub</a>
+      </div>
+      <div class="grid__item">
+        <h2>xxx</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras congue arcu et urna convallis, varius facilisis libero semper.
+          Morbi ultrices urna vel sem sagittis maximus. Ut varius arcu velit, aliquet facilisis nunc eleifend ac.
+          Maecenas non est eget nisi fermentum cursus. Duis semper leo nibh, sed convallis ex malesuada quis.
+        </p>
+        <a href="#">See project on GitHub</a>
+      </div>
+      <div class="grid__item">
+        <h2>xxx</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras congue arcu et urna convallis, varius facilisis libero semper.
+          Morbi ultrices urna vel sem sagittis maximus. Ut varius arcu velit, aliquet facilisis nunc eleifend ac.
+          Maecenas non est eget nisi fermentum cursus. Duis semper leo nibh, sed convallis ex malesuada quis.
+        </p>
+        <a href="#">See project on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+   Work Experience
+
+  <section id="workexpereince">
+    <h3>Work Experience</h3>
+    <table class="worktable">
+      <tbody>
+        <tr>
+          <td class="workname">
+            <h5>Warehouse Manager</h5><a class="companywebsite" href="https://www.komandor.com/" target="_blank">Komandor</a><br>
+            <p>Vilnius, Lithuania<br>May-2012 - August-2013</p>
+          </td>
+          <td class="worktasks">
+            <p>- receiving and processing incoming stock and materials
+              <br>
+              - picking and filling orders
+              <br>
+              - stocktaking
+              <br>
+              - organizing and systemizing stock.</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="workname">
+            <h5>Sales Representative</h5><a class="companywebsite" href="https://portus.lt/aboutus/" target="_blank">Portus Logistika</a><br>
+            <p>Vilnius, Lithuania<br>September-2013 - January-2014</p>
+          </td>
+          <td class="worktasks">- sales of logistic services in Russian and Kazakhstan markets</td>
+        </tr>
+        <tr>
+          <td class="workname">
+            <h5>Restaurant Manager</h5><a class="companywebsite" href="https://www.zoesbargrill.com" target="_blank">Nordic Entertainment</a><br>
+            <p>Vilnius, Lithuania<br>May-2014 - September-2017</p><br>
+            <a class="companywebsite" href="https://www.restoranasgrey.lt" target="_blank">Juta Jazz Kava</a><br>
+            <p>Vilnius, Lithuania<br>October-2017 - April-2018</p>
+          </td>
+          <td class="worktasks">
+            - records management
+            <br>
+            - events organisation
+            <br>
+            - human resourcing
+            <br>
+            - issue-solving and maintaining relations with guests and suppliers
+            <br>
+            - social media management
+          </td>
+        </tr>
+        <tr>
+          <td class="workname">
+            <h5>Chef De Rang</h5><a class="companywebsite" href="https://www3.hilton.com/en/hotels/bavaria/hilton-munich-park-MUCHITW/index.html" target="_blank">Hilton Munich Park</a><br>
+            <p>Munich, Germany<br>June-2018 - Present</p>
+          </td>
+          <td class="worktasks">- overseeing customer service in Food & Beverage department by the high standards
+            <br>
+            - events organisation
+            <br>
+            - staff training
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="downloadlinks">
+      <div class="pdf_ger"><a class="pdflinks" href="https://www.dropbox.com/s/0mp0n9mecddiegx/VitaliyPorsnevCVDE.pdf?dl=0"><img src="images/pdf.png" alt="pdf_icon"><br>Download PDF in German</a></div>
+      <div class="pdf_eng"><a class="pdflinks" href="https://www.dropbox.com/s/p47ditw746ws77v/VitaliyPorsnevCVENG.pdf?dl=0"><img src="images/pdf.png" alt="pdf_icon"><br>Download PDF in English</a></div>
+      <div class="pdf_ru"><a class="pdflinks" href="https://www.dropbox.com/s/8iu7vox6fqrcgdb/VitaliyPorsnevCVRU.pdf?dl=0x"><img src="images/pdf.png" alt="pdf_icon"><br>Download PDF in Russian</a></div>
+    </div>
+  </section>
+
+  Skills
+
+  <section id="skills">
+    <table class="skilltable">
+      <tbody>
+        <tr>
+          <td class="education">
+            <h3>Education</h3>
+          </td>
+          <td class="languages">
+            <h3>Languages</h3>
+          </td>
+        <tr>
+          <td>
+            <p>Business Management And Administration
+              <br> Vilnius University
+              <br> Vilnius, Lithuania</p>
+          </td>
+          <td class="skills-td">
+            <table class="language-table" cellspacing="3" , cellpadding="5">
+              <tr>
+                <td>Russian ⦿⦿⦿⦿⦿</td>
+                <td>English ⦿⦿⦿⦿⦾</td>
+              </tr>
+              <tr>
+                <td>Lithuanian ⦿⦿⦿⦿⦿</td>
+                <td>German ⦿⦿⦿⦾⦾</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td class="skillslist">
+            <h3>Skills</h3>
+          </td>
+          <td class="courses">
+            <h3 class="course">Courses</h3>
+          </td>
+        </tr>
+        <tr>
+          <td class="skills-td">
+            <ul class="skills">
+              <li class="skillsli"> customer service
+              <li class="skillsli"> advanced computer user (CSS, HTML; MS Office; Wordpress; Social Media etc.)
+              <li class="skillsli"> time management
+              <li class="skillsli"> staff management
+              <li class="skillsli"> leadership
+            </ul>
+          </td>
+          <td>
+            <ul class="skills">
+              <li class="skillsli"> CarrerFoundry Full Stack Web Development Course
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section> -->
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <div class="footer"><a class="contact" href="https://github.com/vporsnev" target="_blank"><i class="socialicon fab fa-github"></i></a> <a class="contact" href="https://www.linkedin.com/in/vitalijporshnev/" target="_blank"><i
+        class="socialicon fab fa-linkedin"></i></a> <a class="contact" href="mailto:v.porshnev@gmail.com" target="_blank"><i class="socialicon fas fa-envelope"></i></a>
+  </footer></div>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
