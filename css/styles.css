@@ -532,6 +532,10 @@ bi-circle-fill {
   margin: auto;
 }
 
+.carousel-control {
+  bottom: 85%;
+}
+
   .hero-image {
     margin: 20px;
     background-position: -732px bottom;
