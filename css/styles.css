@@ -421,7 +421,7 @@ bi-circle-fill {
   margin: auto;
   color: black;
   height: 100px;
-  width: 500px;
+  width: auto;
   opacity: 0.8;
   text-shadow: 2px 2px 5px grey;
 }
