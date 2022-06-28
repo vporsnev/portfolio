@@ -559,7 +559,7 @@ bi-circle-fill {
 
 @media all and (max-width: 750px) {
   .grid {
-    grid-gap: 40px;
+    grid-gap: 50px;
   }
 
   .grid__item:last-child {
