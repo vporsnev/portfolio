@@ -255,7 +255,7 @@ a {
   margin: 0;
 } */
 
-/* #projects {
+#projects {
   text-align: center;
   background-color: white;
   height: auto;
@@ -265,6 +265,7 @@ a {
   padding-bottom: 50px;
   border-radius: 15px;
 } 
+
 .grid {
   display: grid;
 }
@@ -328,6 +329,7 @@ border-radius: 30px;
 .carousel-control {
   bottom: 65%;
 }
+
 /* #workexpereince {
   text-align: center;
   background-color: #B1D0E0;
