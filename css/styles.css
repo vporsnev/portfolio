@@ -300,7 +300,7 @@ border-radius: 30px;
 
 .modal-body {
   color: white;
-  padding: 20px 50px 0 50px;
+  padding: 20px 20px 0 20px;
   text-align: center;
   z-index: 1;
 }
@@ -327,7 +327,7 @@ border-radius: 30px;
 }
 
 .carousel-control {
-  bottom: 65%;
+  bottom: auto;
 }
 
 /* #workexpereince {
