@@ -546,6 +546,7 @@ bi-circle-fill {
   .grid {
     margin: 100px 20px 100px 20px;
     grid-template-columns: 1fr;
+    grid-gap: 50px;
   }
 
  .workname {
