@@ -423,7 +423,15 @@ bi-circle-fill {
   color: black;
 }
 
-@media screen and (max-device-width: 501px)
+@media screen and (max-width: 502px) {
+  .grid {
+    margin: 100px 20px 100px 20px;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
+}
+
+@media screen and (max-device-width: 502px)
 and (orientation: portrait) {
   .myname {
     font-size: 35px;
@@ -512,53 +520,3 @@ and (max-device-width: 1024px) {
     font-size: 13px;
   }
 }
-
-/* @media (max-width: 667px) {
-  .myname {
-    font-size: 35px;
-  }
-
-  .hero-text {
-    font-size: 13px;
-  }
-
-  .modal-content {
-    margin: auto;
-  }
-
-  .carousel-control {
-    bottom: 85%;
-  }
-
-  .hero-image {
-    margin: 20px;
-    background-position: -700px bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .grid {
-    margin: 100px 20px 100px 20px;
-    grid-template-columns: 1fr;
-    grid-gap: 50px;
-  }
-
-  .workname {
-    font-size: 12px;
-  }
-
-  .worktasks {
-    font-size: 12px;
-  }
-}
-
-@media all and (max-width: 750px) {
-  .grid {
-    grid-gap: 50px;
-  }
-
-  .grid__item:last-child {
-    grid-column: auto / auto;
-    grid-row: auto / auto;
-  }
-} */
