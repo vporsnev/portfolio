@@ -19,6 +19,7 @@ p {
 a {
   text-decoration: none;
 }
+
 /* .page-header {
   position: fixed;
   display: flex;
@@ -112,8 +113,6 @@ a {
   text-decoration: none;
   color: white;
 } */
-
-
 .hero-image {
   background-image: url(../images/IMG_8490.JPG);
   height: 600px;
@@ -164,6 +163,10 @@ a {
   line-height: 0px;
 }
 
+.chevron {
+  color: black;
+}
+
 .chevron:visited {
   color: black;
 }
@@ -183,7 +186,7 @@ a {
 }
 
 .card:hover {
-  font-size: 45px;
+  font-size: 40px;
   transition: 0.5s all ease;
 }
 
@@ -237,7 +240,6 @@ a {
   padding: 5% 7%;
   margin: 0;
 } */
-
 #projects {
   text-align: center;
   background-color: white;
@@ -266,19 +268,19 @@ a {
 
 body.modal-open>div.bg,
 .modal-backdrop.fade.show {
-    z-index: 1;
-    -webkit-filter: blur(20px);
-    filter: blur(20px);
-      background-color: #333333;
+  z-index: 1;
+  -webkit-filter: blur(20px);
+  filter: blur(20px);
+  background-color: #333333;
 }
 
 .modalblur {
-    margin: 20px;
-    background-color: rgba(0, 0, 0, 0.9);
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .modal-content {
-border-radius: 30px;
+  border-radius: 30px;
 }
 
 .modal-body {
@@ -310,7 +312,7 @@ border-radius: 30px;
 }
 
 .carousel-control {
-  bottom: auto;
+  bottom: 65%;
 }
 
 /* #workexpereince {
@@ -323,7 +325,6 @@ border-radius: 30px;
   position: relative;
   border-radius: 15px;
 } */
-
 .worktable {
   text-align: center;
   table-layout: fixed;
@@ -342,6 +343,11 @@ border-radius: 30px;
   text-align: left;
 }
 
+.companywebsite {
+  color: white;
+  text-decoration: underline;
+}
+
 /* #skills {
   text-align: center;
   background-color: white;
@@ -352,7 +358,6 @@ border-radius: 30px;
   z-index: -1;
   border-radius: 15px;
 } */
-
 /* .skilltable {
   margin: auto;
   table-layout: fixed;
@@ -375,7 +380,6 @@ bi-circle-fill {
 .language-table {
   margin: auto auto;
 } */
-
 .pdflinks {
   text-decoration: none;
   color: white;
@@ -419,93 +423,28 @@ bi-circle-fill {
   color: black;
 }
 
-@media (max-width: 500px) {
-  .menu-button-container {
-    display: flex;
-    flex-direction: row-reverse;
+@media screen and (max-device-width: 501px)
+and (orientation: portrait) {
+  .myname {
+    font-size: 35px;
   }
-
-  .navigation-list {
-    position: absolute;
-    top: 0;
-    margin-top: 50px;
-    left: 0;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-  }
-
-  #menu-toggle~.navigation-list li {
-    height: 0;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  #menu-toggle:checked~.navigation-list li {
-    display: block;
-    height: 1em;
-    padding: 0.5em;
-    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .navigation-list>li {
-    display: flex;
-    justify-content: center;
-    text-align: right;
-    margin-right: 0;
-    padding: 50px;
-    width: 100%;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-
-  .navigation-list>li:not(:last-child) {
-    border-bottom: 1px solid #444;
-  }
-
-  .nav-link {
-    padding-right: 15px;
-  }
-
-  .workname {
-    width: 10em;
-  }
-
-  .worktasks {
-    width: 10em;
-  }
-
-  .worktable {
-    margin-top: 2em
-  }
-}
-
-@media (max-width: 501px) {}
-
-@media (max-width: 501px) {
-   .myname {
-     font-size: 35px;
-   }
 
   .hero-text {
+    top: 35%;
     font-size: 13px;
   }
 
-.modal-content {
-  margin: auto;
-}
+  .modal-content {
+    margin: auto;
+  }
 
-.carousel-control {
-  bottom: 85%;
-}
+  .carousel-control {
+    bottom: 85%;
+  }
 
   .hero-image {
     margin: 20px;
-    background-position: -732px bottom;
+    background-position: -700px bottom;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -516,9 +455,97 @@ bi-circle-fill {
     grid-gap: 50px;
   }
 
- .workname {
-   font-size: 12px;
- }
+  .workname {
+    font-size: 12px;
+  }
+
+  .worktasks {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-device-width: 920px)
+and (orientation: landscape) {
+  .myname {
+    font-size: 35px;
+  }
+
+  .hero-text {
+    margin-top: 50px;
+    top: 55%;
+    font-size: 13px;
+  }
+
+  .modal-content {
+    margin: auto;
+  }
+
+  .carousel-control {
+    bottom: 85%;
+  }
+
+  .hero-image {
+    margin: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .grid {
+    margin: 100px 20px 100px 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .workname {
+    font-size: 12px;
+  }
+
+  .worktasks {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+  .hero-text {
+    top: 25%;
+    font-size: 13px;
+  }
+}
+
+/* @media (max-width: 667px) {
+  .myname {
+    font-size: 35px;
+  }
+
+  .hero-text {
+    font-size: 13px;
+  }
+
+  .modal-content {
+    margin: auto;
+  }
+
+  .carousel-control {
+    bottom: 85%;
+  }
+
+  .hero-image {
+    margin: 20px;
+    background-position: -700px bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .grid {
+    margin: 100px 20px 100px 20px;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
+
+  .workname {
+    font-size: 12px;
+  }
 
   .worktasks {
     font-size: 12px;
@@ -534,4 +561,4 @@ bi-circle-fill {
     grid-column: auto / auto;
     grid-row: auto / auto;
   }
-}
+} */
