@@ -31,7 +31,7 @@ a {
   background-size: cover;
   border-radius: 30px;
   z-index: 0;
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
 
 .hero-text {
@@ -82,11 +82,12 @@ a {
   height: 300px;
   font-size: 30px;
   font-weight: bold;
+  border: 0;
   border-radius: 30px;
   cursor: pointer;
   text-align: center;
   color: white;
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,7 +99,7 @@ a {
 }
 
 .projects {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/img_20.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)), url(../images/img_20.jpeg);
   background-position: center;
   background-size: cover;
   transform: translateY(-100px);
@@ -113,7 +114,7 @@ a {
 }
 
 .work {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/img_30.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)), url(../images/img_30.jpeg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -128,7 +129,7 @@ a {
 }
 
 .skills {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/img_40.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)), url(../images/img_40.jpeg);
   background-position: center;
   background-size: cover;
   position: relative;
