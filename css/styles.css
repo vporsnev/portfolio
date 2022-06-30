@@ -26,7 +26,7 @@ a {
   width: auto;
   position: relative;
   margin: 40px 50px 50px 50px;
-  background-position: right;
+  background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 30px;
@@ -98,7 +98,7 @@ a {
 }
 
 .projects {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/img_20.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/img_20.jpeg);
   background-position: center;
   background-size: cover;
   transform: translateY(-100px);
@@ -113,7 +113,7 @@ a {
 }
 
 .work {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/img_30.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/img_30.jpeg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -128,7 +128,7 @@ a {
 }
 
 .skills {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/img_40.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/img_40.jpeg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -160,8 +160,8 @@ a {
 body.modal-open>div.bg,
 .modal-backdrop.fade.show {
   z-index: 1;
-  -webkit-filter: blur(20px);
-  filter: blur(20px);
+  -webkit-filter: blur(50px);
+  filter: blur(50px);
   background-color: #333333;
 }
 
@@ -229,38 +229,34 @@ body.modal-open>div.bg,
   text-decoration: underline;
 }
 
-/* #skills {
-  text-align: center;
-  background-color: white;
-  height: auto;
-  width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  z-index: -1;
-  border-radius: 15px;
-} */
-/* .skilltable {
+.skilltable {
   margin: auto;
   table-layout: fixed;
   word-wrap: break-word;
 }
+
 .skillsli {
   list-style-type: '- ';
   text-align: left;
 }
+
 .skills-td {
   width: 500px;
 }
+
 bi-circle-fill {
   color: black;
   font-size: 20px;
 }
+
 .languages {
   padding: 0;
 }
+
 .language-table {
   margin: auto auto;
-} */
+}
+
 .pdflinks {
   text-decoration: none;
   color: white;
