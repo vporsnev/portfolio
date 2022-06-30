@@ -20,99 +20,6 @@ a {
   text-decoration: none;
 }
 
-/* .page-header {
-  position: fixed;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  height: 50px;
-  padding: 1em -1em 1em 1em;
-  width: 100%;
-  z-index: 1;
-}
-.nav-active {
-  background-color: rgba(0, 0, 0, 0.5);
-  box-shadow: 5px -1px 12px -5px grey;
-}
-.page-header__item {
-  flex: 0 1 120px;
-  text-decoration: none;
-}
-.logo {
-  padding-left: 1em;
-  margin: 0;
-  font-size: 16px;
-  color: white;
-}
-.logo:hover {
-  text-decoration: none;
-}
-.page-header__item:last-child {
-  flex-grow: 1;
-  text-align: right;
-  margin-right: 50px;
-}
-.navigation-list {
-  display: flex;
-  flex-direction: row;
-  padding: 0;
-  list-style-type: none;
-  margin: 0;
-}
-.navigation-list li {
-  margin: 0 1rem;
-  overflow: hidden;
-}
-.menu-button-container {
-  display: none;
-  position: absolute;
-  top: 1.5rem;
-  right: 2rem;
-  height: 100%;
-  width: 30px;
-  cursor: pointer;
-}
-#menu-toggle {
-  display: none;
-}
-.menu-button,
-.menu-button::before,
-.menu-button::after {
-  display: block;
-  background-color: #fff;
-  position: absolute;
-  height: 4px;
-  width: 30px;
-  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
-  border-radius: 2px;
-}
-.menu-button::before {
-  content: '';
-  margin-top: -8px;
-}
-.menu-button::after {
-  content: '';
-  margin-top: 8px;
-}
-#menu-toggle:checked+.menu-button-container .menu-button::before {
-  margin-top: 0px;
-  transform: rotate(405deg);
-}
-#menu-toggle:checked+.menu-button-container .menu-button {
-  background: rgba(255, 255, 255, 0);
-}
-#menu-toggle:checked+.menu-button-container .menu-button::after {
-  margin-top: 0px;
-  transform: rotate(-405deg);
-}
-.navigation-list__item--active {
-  text-decoration: underline;
-}
-.nav-link {
-  text-decoration: none;
-  color: white;
-} */
 .hero-image {
   background-image: url(../images/IMG_8490.JPG);
   height: 600px;
@@ -235,22 +142,6 @@ a {
   opacity: 1;
 }
 
-/* .letter {
-  text-align: left;
-  padding: 5% 7%;
-  margin: 0;
-} */
-#projects {
-  text-align: center;
-  background-color: white;
-  height: auto;
-  width: 100%;
-  box-shadow: 0 0px 10px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  border-radius: 15px;
-}
-
 .grid {
   display: grid;
 }
@@ -315,16 +206,6 @@ body.modal-open>div.bg,
   bottom: 65%;
 }
 
-/* #workexpereince {
-  text-align: center;
-  background-color: #B1D0E0;
-  color: black;
-  height: auto;
-  padding-bottom: 50px;
-  padding-top: 50px;
-  position: relative;
-  border-radius: 15px;
-} */
 .worktable {
   text-align: center;
   table-layout: fixed;
