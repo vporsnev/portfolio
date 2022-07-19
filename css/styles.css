@@ -94,8 +94,7 @@ a {
 }
 
 .card:hover {
-  font-size: 40px;
-  transition: 0.5s all ease;
+  font-size: 33px;
 }
 
 .projects {
@@ -168,7 +167,7 @@ a {
 
 .modalblur {
   margin: 20px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .modal-content {
@@ -177,6 +176,7 @@ a {
 
 .modal-body {
   color: white;
+  margin-top: 30px;
   padding: 20px 20px 0 20px;
   text-align: center;
   z-index: 1;
@@ -231,7 +231,6 @@ a {
 }
 
 .skilltable {
-  margin: auto;
   table-layout: fixed;
   word-wrap: break-word;
 }
@@ -245,6 +244,10 @@ a {
   width: 500px;
 }
 
+.skills-ul {
+  margin: 0;
+}
+
 bi-circle-fill {
   color: black;
   font-size: 20px;
@@ -255,7 +258,7 @@ bi-circle-fill {
 }
 
 .language-table {
-  margin: auto auto;
+  margin: auto;
 }
 
 .pdflinks {
@@ -301,7 +304,11 @@ bi-circle-fill {
   color: black;
 }
 
-@media screen and (max-width: 502px) {
+@media screen and (max-width: 512px) {
+  .hero-image {
+    margin: 20px;
+  }
+
   .grid {
     margin: 100px 20px 100px 20px;
     grid-template-columns: 1fr;
@@ -309,7 +316,7 @@ bi-circle-fill {
   }
 }
 
-@media screen and (max-device-width: 502px)
+@media screen and (max-device-width: 512px)
 and (orientation: portrait) {
   .myname {
     font-size: 35px;
@@ -323,6 +330,10 @@ and (orientation: portrait) {
   .modal-content {
     margin: auto;
   }
+
+.project-pic {
+  width: 250px;
+}
 
   .carousel-control {
     bottom: 85%;
@@ -391,8 +402,16 @@ and (orientation: landscape) {
   }
 }
 
-@media screen and (min-device-width: 768px)
+@media screen and (min-device-width: 700px)
 and (max-device-width: 1024px) {
+  .project-pic {
+    width: 350px;
+  }
+
+    .carousel-control {
+      bottom: 80%;
+    }
+
   .hero-text {
     top: 25%;
     font-size: 13px;
