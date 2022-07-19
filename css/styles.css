@@ -164,7 +164,6 @@ a {
   filter: blur(50px);
   background-color: #333333;
 } */
-
 .modalblur {
   margin: 20px;
   background-color: rgba(0, 0, 0, 0.9);
@@ -204,7 +203,7 @@ a {
 }
 
 .carousel-control {
-  bottom: 65%;
+  bottom: 60%;
 }
 
 .worktable {
@@ -231,6 +230,7 @@ a {
 }
 
 .skilltable {
+  margin: auto;
   table-layout: fixed;
   word-wrap: break-word;
 }
@@ -245,7 +245,7 @@ a {
 }
 
 .skills-ul {
-  margin: 0;
+  margin: 0 0 0 30px;
 }
 
 bi-circle-fill {
@@ -316,8 +316,7 @@ bi-circle-fill {
   }
 }
 
-@media screen and (max-device-width: 512px)
-and (orientation: portrait) {
+@media screen and (max-device-width: 512px) and (orientation: portrait) {
   .myname {
     font-size: 35px;
   }
@@ -331,12 +330,12 @@ and (orientation: portrait) {
     margin: auto;
   }
 
-.project-pic {
-  width: 250px;
-}
+  .project-pic {
+    width: 250px;
+  }
 
   .carousel-control {
-    bottom: 85%;
+    bottom: 80%;
   }
 
   .hero-image {
@@ -361,8 +360,7 @@ and (orientation: portrait) {
   }
 }
 
-@media screen and (max-device-width: 920px)
-and (orientation: landscape) {
+@media screen and (max-device-width: 920px) and (orientation: landscape) {
   .myname {
     font-size: 35px;
   }
@@ -402,15 +400,14 @@ and (orientation: landscape) {
   }
 }
 
-@media screen and (min-device-width: 700px)
-and (max-device-width: 1024px) {
+@media screen and (min-device-width: 700px) and (max-device-width: 1024px) {
   .project-pic {
     width: 350px;
   }
 
-    .carousel-control {
-      bottom: 80%;
-    }
+  .carousel-control {
+    bottom: 72%;
+  }
 
   .hero-text {
     top: 25%;
