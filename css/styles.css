@@ -160,7 +160,7 @@ a {
 .modal-backdrop { opacity: 0 !important; }
 
 .modal {
-  animation: fadeIn 1s, slideIn .8s linear;
+  animation: slideIn .8s linear;
 }
 
 @keyframes slideIn {
@@ -182,21 +182,9 @@ a {
   }
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.modalblur {
-  background-color: rgba(30, 30, 30);
-}
-
 .modal-content {
   border-radius: 30px;
+  background-color: rgb(30, 30, 30);
 }
 
 .modal-header {
