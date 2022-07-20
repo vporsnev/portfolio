@@ -194,6 +194,10 @@ a {
   width: 500px;
 }
 
+.project-pic2 {
+  height:275px;
+}
+
 .pic {
   border-radius: 10px;
 }
@@ -334,6 +338,10 @@ bi-circle-fill {
     width: 250px;
   }
 
+  body.modal-open {
+    overflow: hidden;
+}
+
   .carousel-control {
     bottom: 80%;
   }
@@ -357,6 +365,10 @@ bi-circle-fill {
 
   .worktasks {
     font-size: 12px;
+  }
+
+  .skills-ul {
+    margin: 0;
   }
 }
 
