@@ -157,21 +157,63 @@ a {
   margin: 200px 50px 200px 50px;
 }
 
+.modal-backdrop { opacity: 0 !important; }
+
+.modal {
+  animation: fadeIn 1s, slideIn .8s linear;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(400px);
+    animation-timing-function: ease-out;
+  }
+  60% {
+    transform: translateY(-30px);
+    animation-timing-function: ease-in;
+  }
+  80% {
+    transform: translateY(10px);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translateY(0px);
+    animation-timing-function: ease-in;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .modalblur {
-  margin: 20px;
-  background-color: rgba(40, 40, 40, 0.99);
+  background-color: rgba(30, 30, 30);
 }
 
 .modal-content {
   border-radius: 30px;
 }
 
+.modal-header {
+  padding-right: 25px;
+  border: none;
+}
+
+.btn-close {
+  color: white;
+}
+
 .modal-body {
   color: white;
-  margin-top: 30px;
-  padding: 20px 20px 0 20px;
+  padding: 0 20px 20px 20px;
   text-align: center;
   z-index: 1;
+  margin-bottom: 35px;
 }
 
 .modal-footer {
