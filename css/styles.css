@@ -157,16 +157,9 @@ a {
   margin: 200px 50px 200px 50px;
 }
 
-/* body.modal-open>div.bg,
-.modal-backdrop.fade.show {
-  z-index: 1;
-  -webkit-filter: blur(50px);
-  filter: blur(50px);
-  background-color: #333333;
-} */
 .modalblur {
   margin: 20px;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(40, 40, 40, 0.99);
 }
 
 .modal-content {
@@ -337,10 +330,6 @@ bi-circle-fill {
   .project-pic {
     width: 250px;
   }
-
-  body.modal-open {
-    overflow: hidden;
-}
 
   .carousel-control {
     bottom: 80%;
