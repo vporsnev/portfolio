@@ -234,6 +234,22 @@ a {
   bottom: 60%;
 }
 
+.github-link {
+  color: white;
+}
+
+.github:hover {
+  color: #6b306b;
+}
+
+.linkedin:hover {
+  color: #0072b1;
+}
+
+.gmail:hover {
+  color: #fd1d1d;
+}
+
 .worktable {
   text-align: center;
   table-layout: fixed;
