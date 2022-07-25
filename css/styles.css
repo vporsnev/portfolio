@@ -231,7 +231,7 @@ a {
 }
 
 .carousel-control {
-  bottom: 60%;
+  height: 25rem;
 }
 
 .github-link {
@@ -254,7 +254,6 @@ a {
   text-align: center;
   table-layout: fixed;
   width: 100%;
-  margin-top: 50px;
   border-collapse: separate;
   border-spacing: 0 1em;
   padding-bottom: 50px;
@@ -277,11 +276,15 @@ a {
   margin: auto;
   table-layout: fixed;
   word-wrap: break-word;
+  border-collapse:separate;
+  border-spacing: 0 20px;
 }
 
+
 .skillsli {
+  list-style-position: inside;
   list-style-type: '- ';
-  text-align: left;
+  text-align: center;
 }
 
 .skills-td {
@@ -289,7 +292,7 @@ a {
 }
 
 .skills-ul {
-  margin: 0 0 0 30px;
+  padding: 0;
 }
 
 bi-circle-fill {
@@ -379,8 +382,14 @@ bi-circle-fill {
   }
 
   .carousel-control {
-    bottom: 80%;
+    height: auto;
   }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    position: absolute;
+    align-self: flex-start;
+    justify-content: flex-start;
+}
 
   .hero-image {
     margin: 20px;
@@ -419,10 +428,6 @@ bi-circle-fill {
     font-size: 13px;
   }
 
-  .modal-content {
-    margin: auto;
-  }
-
   .carousel-control {
     bottom: 85%;
   }
@@ -432,6 +437,20 @@ bi-circle-fill {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .project-pic {
+    width: 300px;
+  }
+
+  .carousel-control {
+    height: auto;
+  }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    position: absolute;
+    align-self: flex-start;
+    justify-content: flex-start;
+}
 
   .grid {
     margin: 100px 20px 100px 20px;
