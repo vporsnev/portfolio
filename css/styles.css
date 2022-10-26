@@ -422,6 +422,7 @@ bi-circle-fill {
 
   .project-pic {
     width: 250px;
+    object-fit: cover;
   }
 
   .carousel-control {
