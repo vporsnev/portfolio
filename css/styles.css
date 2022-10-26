@@ -220,7 +220,6 @@ a {
 }
 
 .pic {
-  object-fit: cover;
   border-radius: 10px;
   height: 275px;
 }
