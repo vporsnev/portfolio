@@ -65,10 +65,6 @@ a {
   margin: 0;
 }
 
-.br1 {
-  line-height: 0px;
-}
-
 .chevron {
   color: black;
 }
@@ -109,6 +105,20 @@ a {
 .projects.active {
   transform: translateY(0);
   opacity: 1;
+}
+
+.accordion {
+  margin: 20px 0 20px 0;
+}
+
+.accordion-item {
+  background-color: transparent;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.accordion-body h5 {
+  margin-top: 10px;
 }
 
 .work {
@@ -183,6 +193,16 @@ a {
   }
 }
 
+.section-cv {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.heading-cv h1 {
+  font-size: 56px;
+}
+
 .modal-content {
   border-radius: 30px;
   background-color: rgb(30, 30, 30);
@@ -246,27 +266,6 @@ a {
   color: #fd1d1d;
 }
 
-.worktable {
-  text-align: center;
-  table-layout: fixed;
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0 1em;
-  padding-bottom: 50px;
-}
-
-.workname {
-  text-align: center;
-}
-
-.worktasks {
-  text-align: left;
-}
-
-.companywebsite {
-  color: white;
-  text-decoration: underline;
-}
 
 .skilltable {
   margin: auto;
@@ -275,7 +274,6 @@ a {
   border-collapse:separate;
   border-spacing: 0 20px;
 }
-
 
 .skillsli {
   list-style-position: inside;
@@ -310,17 +308,6 @@ bi-circle-fill {
   font-size: 12px;
 }
 
-.pdf_ger {
-  display: inline-block;
-}
-
-.pdf_eng {
-  display: inline-block;
-}
-
-.pdf_ru {
-  display: inline-block;
-}
 
 #footer {
   text-align: center;
