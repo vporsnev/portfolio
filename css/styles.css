@@ -88,7 +88,7 @@ a {
 }
 
 .card:hover {
-   font-size: 40px;
+  font-size: 40px;
 }
 
 .projects {
@@ -168,7 +168,9 @@ a {
   margin: 200px 50px 200px 50px;
 }
 
-.modal-backdrop { opacity: 0 !important; }
+.modal-backdrop {
+  opacity: 0 !important;
+}
 
 .modal {
   animation: slideIn .8s linear;
@@ -179,14 +181,17 @@ a {
     transform: translateY(400px);
     animation-timing-function: ease-out;
   }
+
   60% {
     transform: translateY(-30px);
     animation-timing-function: ease-in;
   }
+
   80% {
     transform: translateY(10px);
     animation-timing-function: ease-out;
   }
+
   100% {
     transform: translateY(0px);
     animation-timing-function: ease-in;
@@ -267,12 +272,11 @@ a {
   color: #fd1d1d;
 }
 
-
 .skilltable {
   margin: auto;
   table-layout: fixed;
   word-wrap: break-word;
-  border-collapse:separate;
+  border-collapse: separate;
   border-spacing: 0 20px;
 }
 
@@ -308,7 +312,6 @@ bi-circle-fill {
   color: white;
   font-size: 12px;
 }
-
 
 #footer {
   text-align: center;
@@ -349,9 +352,9 @@ bi-circle-fill {
   }
 
   .carousel-control-prev-icon, .carousel-control-next-icon {
-      position: absolute;
-      align-self: flex-start;
-      justify-content: flex-start;
+    position: absolute;
+    align-self: flex-start;
+    justify-content: flex-start;
   }
 
   .grid {
@@ -362,7 +365,6 @@ bi-circle-fill {
 }
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
-
   .carousel-control {
     bottom: 85%;
   }
@@ -382,9 +384,9 @@ bi-circle-fill {
   }
 
   .carousel-control-prev-icon, .carousel-control-next-icon {
-      position: absolute;
-      align-self: flex-start;
-      justify-content: flex-start;
+    position: absolute;
+    align-self: flex-start;
+    justify-content: flex-start;
   }
 
   .hero-text {
@@ -416,11 +418,11 @@ bi-circle-fill {
     height: auto;
   }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+  .carousel-control-prev-icon, .carousel-control-next-icon {
     position: absolute;
     align-self: flex-start;
     justify-content: flex-start;
-}
+  }
 
   .hero-image {
     margin: 20px;
@@ -477,11 +479,11 @@ bi-circle-fill {
     height: auto;
   }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+  .carousel-control-prev-icon, .carousel-control-next-icon {
     position: absolute;
     align-self: flex-start;
     justify-content: flex-start;
-}
+  }
 
   .grid {
     margin: 100px 20px 100px 20px;
@@ -499,7 +501,6 @@ bi-circle-fill {
 }
 
 @media screen and (min-device-width: 700px) and (max-device-width: 1024px) {
-
   .carousel-control {
     bottom: 85%;
   }
@@ -519,9 +520,9 @@ bi-circle-fill {
   }
 
   .carousel-control-prev-icon, .carousel-control-next-icon {
-      position: absolute;
-      align-self: flex-start;
-      justify-content: flex-start;
+    position: absolute;
+    align-self: flex-start;
+    justify-content: flex-start;
   }
 
   .hero-text {
