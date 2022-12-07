@@ -1,394 +1,842 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Vitaliy Porsnev</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/styles.css" />
 
-<head>
-  <meta charset="utf-8">
-  <title>Vitaliy Porsnev</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
+		<!-- Fontawesome CDN -->
+		<script
+			src="https://kit.fontawesome.com/37ebeafa48.js"
+			crossorigin="anonymous"
+		></script>
 
-  <!-- Fontawesome CDN -->
-  <script src="https://kit.fontawesome.com/37ebeafa48.js" crossorigin="anonymous"></script>
+		<link rel="icon" type="image/png" href="images/favicon.png" />
+		<link rel="apple-touch-icon" href="images/favicon.png" />
 
-  <link rel="icon" type="image/png" href="images/favicon.png">
-  <link rel="apple-touch-icon" href="images/favicon.png">
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;300;400;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;300;400;700&display=swap" rel="stylesheet">
-</head>
+	<body>
+		<section class="hero">
+			<div class="hero-text">
+				<h1 class="myname">Vitaliy Porsnev</h1>
+				<p>
+					A beginner in Web Developement.<br />Experienced in gastronomy,
+					customer service and sales.<br />
+					Technology enthusiast.<br /><br /><a class="chevron" href="#shortcuts"
+						><span class="scroll"
+							>SCROLL<br class="br1" /><svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="50"
+								height="50"
+								fill="currentColor"
+								class="bi bi-chevron-compact-down"
+								viewBox="0 10 16 10"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"
+								/></svg></span
+					></a>
+				</p>
+			</div>
+			<div class="hero-image"></div>
+		</section>
 
-<body>
-  <section class="hero">
-    <div class="hero-text">
-      <h1 class="myname">Vitaliy Porsnev</h1>
-      <p>A beginner in Web Developement.<br>Experienced in gastronomy, customer service and sales.<br> Technology enthusiast.<br><br><a class="chevron" href="#shortcuts"><span class="scroll">SCROLL<br class="br1"><svg
-              xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-chevron-compact-down" viewBox="0 10 16 10">
-              <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z" />
-            </svg></span></a></p>
-    </div>
-    <div class="hero-image">
-    </div>
-  </section>
+		<section id="shortcuts">
+			<div class="grid">
+				<div
+					class="projects card"
+					data-bs-toggle="modal"
+					data-bs-target="#projectsModal"
+				>
+					<p>Projects</p>
+				</div>
 
-  <section id="shortcuts">
-    <div class="grid">
-      <div class="projects card" data-bs-toggle="modal" data-bs-target="#projectsModal">
-        <p>Projects</p>
-      </div>
+				<div
+					class="modal fade"
+					id="projectsModal"
+					tabindex="-1"
+					aria-labelledby="exampleModalLabel"
+					aria-hidden="true"
+				>
+					<div class="modal-dialog modal-xl modal-dialog-scrollable">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button
+									type="button"
+									class="btn-close btn-close-white"
+									data-bs-dismiss="modal"
+									aria-label="Close"
+								></button>
+							</div>
+							<div class="modal-body">
+								<div
+									id="carouselExampleControls"
+									class="carousel slide"
+									data-bs-touch="true"
+									data-bs-ride="carousel"
+									data-bs-interval="false"
+								>
+									<div class="carousel-inner">
+										<button
+											class="carousel-control carousel-control-prev"
+											type="button"
+											data-bs-target="#carouselExampleControls"
+											data-bs-slide="prev"
+										>
+											<span
+												class="carousel-control-prev-icon"
+												aria-hidden="true"
+											></span>
+											<span class="visually-hidden">Previous</span>
+										</button>
+										<button
+											class="carousel-control carousel-control-next"
+											type="button"
+											data-bs-target="#carouselExampleControls"
+											data-bs-slide="next"
+										>
+											<span
+												class="carousel-control-next-icon"
+												aria-hidden="true"
+											></span>
+											<span class="visually-hidden">Next</span>
+										</button>
+										<div class="carousel-item active">
+											<h3>Portfolio website</h3>
+											<div class="project-pic">
+												<a
+													href="https://vporsnev.github.io/portfolio/"
+													target="_blank"
+													><img
+														src="images/img_80.png"
+														class="pic d-block w-100"
+														alt="..."
+												/></a>
+											</div>
+											<div class="project-description">
+												<h3>About</h3>
+												<p>
+													My personal one-page portfolio website. Includes
+													information about my projects, my cv and my skills.
+													Written using HTML, CSS, Bootstrap 5 and JS. The
+													website features smooth transitions, responsive design
+													and modals with swipe function for mobile devices.
+												</p>
+												<br />
+												<h4>
+													Click on the picture of every project to see it hosted
+													version or an icon at the bottom to see the repository
+													on Github.
+												</h4>
+											</div>
+											<a
+												class="github github-link"
+												href="https://github.com/vporsnev/portfolio"
+												target="_blank"
+												><i class="socialicon fab fa-github"></i
+											></a>
+										</div>
+										<div class="carousel-item">
+											<h3>Pokedex</h3>
+											<div class="project-pic">
+												<a
+													href="https://vporsnev.github.io/simple-js-app/"
+													target="_blank"
+													><img
+														src="images/pokemon_main.png"
+														class="pic d-block w-100"
+														alt="..."
+												/></a>
+											</div>
+											<div class="project-description">
+												<h3>About</h3>
+												<p>
+													This is a small web application with HTML, CSS, and
+													JavaScript that loads data from an external API and
+													enables the viewing of data points in detail. When a
+													Pokemon is clicked, the image, height, weight and type
+													characteristics of the Pokemon appears on a modal.
+													Alternatively, pokemons can be searched by typing the
+													pokemon name in the search bar. This modal can then be
+													closed by clicking on the "Close" button, pressing the
+													escape key or clicking outside the modal.
+												</p>
+												<br />
+												<h3>App dependencies</h3>
+												<p>
+													jQuery<br />
+													Bootstrap<br />
+													Pokémon API<br />
+													Ajax<br />
+												</p>
+												<br />
+												<h3>Features</h3>
+												<p>
+													The app loads data from an external API.<br />
+													The app displays a list of items loaded from that API
+													after the page is loaded.<br />
+													  The app enables the viewing of more details for a
+													given list item (like a Pokémon) on  demand, such as
+													when clicking on a list item.<br />
+													  The app has CSS styling.<br />
+													  The JavaScript code is formatted according to ESLint
+													rules.<br />
+													  The JavaScript code is formatted via Prettier.<br />
+													The uses at least one additional complex UI pattern,
+													such as a modal, for details or  touch
+													interactions.<br />
+													  The app allows searching for items (e.g., searching
+													for Pokémon).<br />
+													  The app does not throw any errors when being
+													used.<br />
+													  The app is deployed to a publicly accessible
+													platform like GitHub Pages.<br />
+													The app works in Chrome, Firefox, Safari, Edge, and
+													Internet Explorer 11.<br />
+												</p>
+											</div>
+											<a
+												class="github github-link"
+												href="https://github.com/vporsnev/simple-js-app"
+												target="_blank"
+												><i class="socialicon fab fa-github"></i
+											></a>
+										</div>
+										<div class="carousel-item">
+											<h3>Movie database API</h3>
+											<div class="project-pic">
+												<a
+													href="https://github.com/vporsnev/movie-api"
+													target="_blank"
+													><img
+														src="images/img_60.jpg"
+														class="pic d-block w-100"
+														alt="..."
+												/></a>
+											</div>
+											<div class="project-description">
+												<h3>About</h3>
+												<p>
+													Movies web  application provides users with access to
+													information about different  movies, directors, and
+													genres. Users are able to sign up, update their
+													 personal information, and create a list of their
+													favorite movies. <br />
+													The server-side of the application, including the
+													server, business logic,  and business layers of the
+													application built. It consists of a well-designed REST
+													API and  architected database built using JavaScript,
+													Node.js, Express, and MongoDB. The REST API  is
+													accessed via commonly used HTTP methods like GET and
+													POST. Similar methods  (CRUD) is used to retrieve data
+													from your database and store that data in a
+													non-relational  way.
+												</p>
+												<br />
+												<h3>Features</h3>
+												<p>
+													Return a list of ALL movies to the user<br />
+													Return data (description, genre, director, image URL,
+													whether it’s featured or not) about a  single movie by
+													title to the user<br />
+													Return data about a genre (description) by name/title
+													(e.g., “Thriller”)<br />
+													  Return data about a director (bio, birth year, death
+													year) by name<br />
+													  Allow new users to register<br />
+													  Allow users to update their user info (username,
+													password, email, date of birth)<br />
+													  Allow users to add a movie to their list of
+													favorites<br />
+													  Allow users to remove a movie from their list of
+													favorites<br />
+													  Allow existing users to deregister
+												</p>
+											</div>
+											<a
+												class="github github-link"
+												href="https://github.com/vporsnev/movie-api"
+												target="_blank"
+												><i class="socialicon fab fa-github"></i
+											></a>
+										</div>
+										<div class="carousel-item">
+											<h3>myFLix App React client</h3>
+											<div class="project-pic">
+												<a
+													href="https://myflixsify.netlify.app/"
+													target="_blank"
+													><img
+														src="images/img_50.jpg"
+														class="pic d-block w-100"
+														alt="..."
+												/></a>
+											</div>
+											<div class="project-description">
+												<h3>About</h3>
+												<p>
+													The client-side for an application built using MERN
+													(MongoDB, Express, React, and Node.js) stack called
+													myFlix based on its existing server-side code (REST
+													API and database).
+												</p>
+												<br />
+												<h3>Features</h3>
+												<h5>Main view</h5>
+												  ● Returns a list of ALL movies to the user (each
+												listed item with an image, title, and description)<br />
+												  ● Sorting and filtering<br />
+												   ● Ability to select a movie for more details<br />
+												 
+												<h5>Single movie view</h5>
+												   ● Returns data (description, genre, director, image)
+												about a single movie to the user<br />
+												  ● Allows users to add a movie to their list of
+												favorites<br />
+												 
+												<h5>Login view</h5>
+												   ● Allows users to log in with a username and
+												password<br />
+												 
+												<h5>Registration view</h5>
+												   ● Allows new users to register (username, password,
+												email, birthday)<br />
+												 
+												<h5>Genre view</h5>
+												   ● Returns data about a genre, with a name and
+												description<br />
+												  ● Displays example movies<br />
+												 
+												<h5>Director view</h5>
+												   ● Returns data about a director (name, bio, birth
+												year, death year)<br />
+												   ● Displays example movies
+											</div>
+											<a
+												class="github github-link"
+												href="https://github.com/vporsnev/myFlix-client"
+												target="_blank"
+												><i class="socialicon fab fa-github"></i
+											></a>
+										</div>
+										<div class="carousel-item">
+											<h3>myFLix App Angular client</h3>
+											<div class="project-pic">
+												<a
+													href="https://vporsnev.github.io/myFlix-Angular-client"
+													target="_blank"
+													><img
+														src="images/img_100.png"
+														class="pic d-block w-100"
+														alt="..."
+												/></a>
+											</div>
+											<div class="project-description">
+												<h3>About</h3>
+												<p>
+													The client-side for an application called myFlix built
+													with Angular and based on its existing server-side
+													code (REST API and database), with supporting
+													documentation.
+												</p>
+												<br />
+												<h3>Features</h3>
+												App displays a welcome view where users are able to
+												either log in or register an account.<br />
+												Once authenticated, the user can now view all movies.<br />
+												User can add or delete a movie to/from favorite movie
+												list.<br />
+												A profile view button which when user clicks, can see,
+												edit and delete profile, log out or come back to movie
+												list.<br />
+												Upon clicking on a particular movie, users are taken to
+												a single movie view, where additional movie details are
+												displayed. The single movie view contains the following
+												additional features:<br />○ A button that when clicked
+												takes a user to the director view, where details about
+												the director of that particular movie are displayed.<br />○
+												A button that when clicked takes a user to the genre
+												view, where details about that particular genre of the
+												movie are displayed.
+											</div>
+											<a
+												class="github github-link"
+												href="https://github.com/vporsnev/myFlix-Angular-client"
+												target="_blank"
+												><i class="socialicon fab fa-github"></i
+											></a>
+										</div>
+										<div class="carousel-item">
+											<h3>Meet App</h3>
+											<div class="project-pic">
+												<a
+													href="https://vporsnev.github.io/meet/"
+													target="_blank"
+													><img
+														src="images/img_70.jpg"
+														class="pic d-block w-100"
+														alt="..."
+												/></a>
+											</div>
+											<div class="project-description">
+												<h3>About</h3>
+												<p>
+													A serverless, progressive web application (PWA)
+													written with React using a test-driven development
+													(TDD) technique. The application uses the Google
+													Calendar API to fetch upcoming events.
+												</p>
+												<br />
+												<h3>App dependencies</h3>
+												<p>
+													Axios<br />
+													nprogress<br />
+													React<br />
+													Recharts<br />
+												</p>
+												<br />
+												<h3>Features</h3>
+												<p>
+													Filter events by city<br />
+													Show/Hide event's details<br />
+													Specify number of events<br />
+													Use the app when offline<br />
+													Data visualization<br />
+												</p>
+											</div>
+											<a
+												class="github github-link"
+												href="https://github.com/vporsnev/meet"
+												target="_blank"
+												><i class="socialicon fab fa-github"></i
+											></a>
+										</div>
+										<div class="carousel-item">
+											<h3>Chat App</h3>
+											<div class="project-pic">
+												<a
+													href="https://github.com/vporsnev/chat_app"
+													target="_blank"
+													><img
+														src="images/img_90.jpg"
+														class="pic d-block w-100"
+														alt="..."
+												/></a>
+											</div>
+											<div class="project-description">
+												<h3>About</h3>
+												<p>
+													Simple Chat app with login, one chat room, picture and
+													location attachement functions. The app provides users
+													with a chat interface and options to share images and
+													their location. App is written with React Native,
+													Expo, and Google Firestore Database.
+												</p>
+												<br />
+												<h3>Features</h3>
+												<p>
+													A page where users can enter their name and choose a
+													background color for the chat screen before joining
+													the chat.<br />
+													A page displaying the conversation, as well as an
+													input field and submit button.<br />
+													The chat provides users with two additional
+													communication features: sending images, making photos
+													and location data.<br />
+													Data gets stored online and offline.
+												</p>
+											</div>
+											<a
+												class="github github-link"
+												href="https://github.com/vporsnev/chat_app"
+												target="_blank"
+												><i class="socialicon fab fa-github"></i
+											></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-      <div class="modal fade" id="projectsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl modal-dialog-scrollable">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <div id="carouselExampleControls" class="carousel slide" data-bs-touch="true" data-bs-ride="carousel" data-bs-interval="false">
-                <div class="carousel-inner">
-                  <button class="carousel-control carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                  <div class="carousel-item active">
-                    <h3>Portfolio website</h3>
-                    <div class="project-pic">
-                      <a href="https://vporsnev.github.io/portfolio/" target="_blank"><img src="images/img_80.png" class="pic d-block w-100" alt="..."></a></div>
-                    <div class="project-description">
-                      <h3>About</h3>
-                      <p>My personal one-page portfolio website. Includes information about my projects, my cv and my skills. Written using HTML, CSS, Bootstrap 5 and JS.
-                        The website features smooth transitions, responsive design and modals with swipe function for mobile devices.</p>
-                      <br>
-                      <h4>Click on the picture of every project to see it hosted version or an icon at the bottom to see the repository on Github.</h4>
-                    </div>
-                    <a class="github github-link" href="https://github.com/vporsnev/portfolio" target="_blank"><i class="socialicon fab fa-github"></i></a>
-                  </div>
-                  <div class="carousel-item">
-                    <h3>Pokedex</h3>
-                    <div class="project-pic">
-                      <a href="https://vporsnev.github.io/simple-js-app/" target="_blank"><img src="images/pokemon_main.png" class="pic d-block w-100" alt="..."></a></div>
-                    <div class="project-description">
-                      <h3>About</h3>
-                      <p>This is a small web application with HTML, CSS, and JavaScript that loads data from an external API and enables the viewing of data points in detail. When a Pokemon is clicked, the image, height, weight and type
-                        characteristics of the Pokemon appears on a modal. Alternatively, pokemons can be searched by typing the pokemon name in the search bar. This modal can then be closed by clicking on the "Close" button, pressing the escape key
-                        or clicking outside the modal.</p>
-                      <br>
-                      <h3>App dependencies</h3>
-                      <p>jQuery<br>
-                        Bootstrap<br>
-                        Pokémon API<br>
-                        Ajax<br></p>
-                      <br>
-                      <h3>Features</h3>
-                      <p>The app loads data from an external API.<br>
-                        The app displays a list of items loaded from that API after the page is loaded.<br>  
-                        The app enables the viewing of more details for a given list item (like a Pokémon) on  demand, such as when clicking on a list item.<br>  
-                        The app has CSS styling.<br>  
-                        The JavaScript code is formatted according to ESLint rules.<br>  
-                        The JavaScript code is formatted via Prettier.<br>
-                        The uses at least one additional complex UI pattern, such as a modal, for details or  touch interactions.<br>  
-                        The app allows searching for items (e.g., searching for Pokémon).<br>  
-                        The app does not throw any errors when being used.<br>  
-                        The app is deployed to a publicly accessible platform like GitHub Pages.<br>
-                        The app works in Chrome, Firefox, Safari, Edge, and Internet Explorer 11.<br></p>
-                    </div>
-                    <a class="github github-link" href="https://github.com/vporsnev/simple-js-app" target="_blank"><i class="socialicon fab fa-github"></i></a>
-                  </div>
-                  <div class="carousel-item">
-                    <h3>Movie database API</h3>
-                    <div class="project-pic"><a href="https://github.com/vporsnev/movie-api" target="_blank"><img src="images/img_60.jpg" class="pic d-block w-100" alt="..."></a></div>
-                    <div class="project-description">
-                      <h3>About</h3>
-                      <p>Movies web  application provides users with access to information about different  movies, directors, and genres.
-                        Users are able to sign up, update their  personal information, and create a list of their favorite movies. <br>
-                        The server-side of the application, including the server, business logic,  and business layers of the application built. It consists of a well-designed REST API and  architected database built using JavaScript, Node.js,
-                        Express, and MongoDB. The REST API  is accessed via commonly used HTTP methods like GET and POST. Similar methods  (CRUD) is used to retrieve data from your database and store that data in a non-relational  way. </p>
-                      <br>
-                      <h3>Features</h3>
-                      <p>
-                        Return a list of ALL movies to the user<br>
-                        Return data (description, genre, director, image URL, whether it’s featured or not) about a  single movie by title to the user<br>
-                        Return data about a genre (description) by name/title (e.g., “Thriller”)<br>  
-                        Return data about a director (bio, birth year, death year) by name<br>  
-                        Allow new users to register<br>  
-                        Allow users to update their user info (username, password, email, date of birth)<br>  
-                        Allow users to add a movie to their list of favorites<br>  
-                        Allow users to remove a movie from their list of favorites<br>  
-                        Allow existing users to deregister</p>
-                    </div>
-                    <a class="github github-link" href="https://github.com/vporsnev/movie-api" target="_blank"><i class="socialicon fab fa-github"></i></a>
-                  </div>
-                  <div class="carousel-item">
-                    <h3>myFLix App client</h3>
-                    <div class="project-pic"><a href="https://myflixsify.netlify.app/" target="_blank"><img src="images/img_50.jpg" class="pic d-block w-100" alt="..."></a></div>
-                    <div class="project-description">
-                      <h3>About</h3>
-                      <p>The client-side for an application built using MERN (MongoDB, Express, React, and Node.js) stack called myFlix based on its existing server-side code (REST API and database). </p>
-                      <br>
-                      <h3>Features</h3>
-                      <h5>Main view</h5>  
-                      ● Returns a list of ALL movies to the user (each listed item with an image, title, and description)<br>  
-                      ● Sorting and filtering<br>   
-                      ● Ability to select a movie for more details<br>  
-                      <h5>Single movie view</h5>   
-                      ● Returns data (description, genre, director, image) about a single movie to the user<br>  
-                      ● Allows users to add a movie to their list of favorites<br>  
-                      <h5>Login view</h5>   
-                      ● Allows users to log in with a username and password<br>  
-                      <h5>Registration view</h5>   
-                      ● Allows new users to register (username, password, email, birthday)<br>  
-                      <h5>Genre view</h5>   
-                      ● Returns data about a genre, with a name and description<br>  
-                      ● Displays example movies<br>  
-                      <h5>Director view</h5>   
-                      ● Returns data about a director (name, bio, birth year, death year)<br>   
-                      ● Displays example movies
-                    </div>
-                    <a class="github github-link" href="https://github.com/vporsnev/myFlix-client" target="_blank"><i class="socialicon fab fa-github"></i></a>
-                  </div>
-                  <div class="carousel-item">
-                    <h3>Meet App</h3>
-                    <div class="project-pic"><a href="https://vporsnev.github.io/meet/" target="_blank"><img src="images/img_70.jpg" class="pic d-block w-100" alt="..."></a></div>
-                    <div class="project-description">
-                      <h3>About</h3>
-                      <p>A serverless, progressive web application (PWA) written with React using a test-driven development (TDD) technique. The application uses the Google Calendar API to fetch upcoming events.</p>
-                      <br>
-                      <h3>App dependencies</h3>
-                      <p>Axios<br>
-                        nprogress<br>
-                        React<br>
-                        Recharts<br></p>
-                      <br>
-                      <h3>Features</h3>
-                      <p>
-                        Filter events by city<br>
-                        Show/Hide event's details<br>
-                        Specify number of events<br>  
-                        Use the app when offline<br>  
-                        Data visualization<br>  
-                      </p>
-                    </div>
-                    <a class="github github-link" href="https://github.com/vporsnev/meet" target="_blank"><i class="socialicon fab fa-github"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+				<div
+					class="work card"
+					data-bs-toggle="modal"
+					data-bs-target="#workModal"
+				>
+					<p>Curriculum Vitae</p>
+				</div>
 
-      <div class="work card" data-bs-toggle="modal" data-bs-target="#workModal">
-        <p>Curriculum Vitae</p>
-      </div>
+				<div
+					class="modal fade"
+					id="workModal"
+					tabindex="-1"
+					aria-labelledby="exampleModalLabel"
+					aria-hidden="true"
+				>
+					<div class="modal-dialog modal-xl modal-dialog-scrollable">
+						<div class="modal-content modalblur">
+							<div class="modal-header">
+								<button
+									type="button"
+									class="btn-close btn-close-white"
+									data-bs-dismiss="modal"
+									aria-label="Close"
+								></button>
+							</div>
+							<div class="modal-body">
+								<div class="section-cv">
+									<div class="heading-cv">
+										<h1>Vitaliy Porsnev</h1>
+										<p>04.14.1992</p>
+										<p>Munich, Germany</p>
+									</div>
 
-      <div class="modal fade" id="workModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl modal-dialog-scrollable">
-          <div class="modal-content modalblur">
-            <div class="modal-header">
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
+									<div class="accordion accordion-flush">
+										<div class="accordion-item">
+											<h2
+												class="accordion-header"
+												id="cv-headingOne"
+												type="button"
+												data-bs-toggle="collapse"
+												data-bs-target="#cv-collapseOne"
+												aria-expanded="false"
+												aria-controls="cv-collapseOne"
+											>
+												Summary
+											</h2>
+											<div
+												id="cv-collapseOne"
+												class="accordion-collapse collapse"
+												aria-labelledby="cv-headingOne"
+												data-bs-parent="#accordionFlushExample"
+											>
+												<div class="accordion-body">
+													Sociable, creative and customer-oriented with strong
+													leadership, time management, problem solving and work
+													in fast-paced environment skills. Beginner in web
+													development. Experienced in the area of gastronomy.
+													Multi-language speaker and advanced computer user.
+													Driven by acquiring knowledge, achieving goals and
+													international experience.
+												</div>
+											</div>
+										</div>
 
-              <div class="section-cv">
+										<div class="accordion-item">
+											<h2
+												class="accordion-header"
+												id="cv-headingTwo"
+												type="button"
+												data-bs-toggle="collapse"
+												data-bs-target="#cv-collapseTwo"
+												aria-expanded="false"
+												aria-controls="cv-collapseTwo"
+											>
+												Education
+											</h2>
+											<div
+												id="cv-collapseTwo"
+												class="accordion-collapse collapse"
+												aria-labelledby="cv-headingTwo"
+												data-bs-parent="#accordionFlushExample"
+											>
+												<div class="accordion-body">
+													<h5>Business Management and Administration</h5>
+													Vilnius University<br />
+													Vilnius, Lithuania
+												</div>
+											</div>
+										</div>
 
-                <div class="heading-cv">
-                  <h1>Vitaliy Porsnev</h1>
-                  <p>04.14.1992</p>
-                  <p>Munich, Germany</p>
-                </div>
+										<div class="accordion-item">
+											<h2
+												class="accordion-header"
+												id="cv-headingThree"
+												type="button"
+												data-bs-toggle="collapse"
+												data-bs-target="#cv-collapseThree"
+												aria-expanded="false"
+												aria-controls="cv-collapseThree"
+											>
+												Work Experience
+											</h2>
+											<div
+												id="cv-collapseThree"
+												class="accordion-collapse collapse"
+												aria-labelledby="cv-headingThree"
+												data-bs-parent="#accordionFlushExample"
+											>
+												<div class="accordion-body">
+													<h5>Warehouse Worker/Manager</h5>
+													Komandor - Vilnius, Lithuania - 05.2012 – 09.2013<br />
+													Started as a warehouse worker, after a year was
+													promoted to a manager position. Ready-to-pickup
+													furniture warehouse where up to 100 orders were
+													stored. As a manager applied new stock control system
+													using Excel and together with GM optimised storage.<br />
+													<h5>Sales Representative</h5>
+													Portus Logistika - Vilnius, Lithuania - 09.2013 –
+													01.2014<br />
+													Sales for logistics company. Coldcalling sales and
+													email offers to Kazakhstan.<br />
+													<h5>Waiter/ Head waiter/ Restaurant Manager</h5>
+													Nordic Entertainment - Vilnius, Lithuania - 05.2014 –
+													09.2017<br />
+													Started as a waiter in central located modern
+													Bar&Grill restaurant. After a year was promoted to
+													head waiter after two to a manager position. As a
+													manager was responsible for social media marketing and
+													communication, recruiting, guest relations, invoice
+													issuing, reservations management and shift service
+													supervision. In the time, we managed to reach the
+													alltime- high shift revenue of 22k euro.<br />
+													<h5>Restaurant Manager</h5>
+													Juta Jazz Kava - Vilnius, Lithuania - 10.2017 –
+													04.2018<br />
+													The biggest at the time restaurant in the city,
+													sitting up to 1000 people. I was responsible for shift
+													service supervision, guest relations, reservations
+													management, invoice issuing and preparations for
+													events we were hosting.
+													<h5>Chef De Rang</h5>
+													<p>
+														Hilton Munich Park - Munich, Germany - 06.2018 –
+														09.2022<br />
+														First job in Germany. As a Chef De Rang was
+														responsible for shift service supervision,
+														reservations management, preparations for events and
+														staff training.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
 
-                <div class="accordion accordion-flush">
+									<div class="downloadlinks">
+										<a
+											class="pdflinks"
+											target="_blank"
+											href="https://www.dropbox.com/s/s52yccnpw90wk6m/VitaliyCV1.pdf?dl=0"
+											><img src="images/pdf.png" alt="pdf_icon" /><br />Download
+											CV</a
+										>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="cv-headingOne" type="button" data-bs-toggle="collapse" data-bs-target="#cv-collapseOne" aria-expanded="false" aria-controls="cv-collapseOne">
-                      Summary
-                    </h2>
-                    <div id="cv-collapseOne" class="accordion-collapse collapse" aria-labelledby="cv-headingOne" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">
-                        Sociable, creative and customer-oriented with strong leadership, time management, problem
-                        solving and work in fast-paced environment skills. Beginner in web development. Experienced in
-                        the area of gastronomy. Multi-language speaker and advanced computer user. Driven by
-                        acquiring knowledge, achieving goals and international experience.
-                      </div>
-                    </div>
-                  </div>
+				<div
+					class="skills card"
+					data-bs-toggle="modal"
+					data-bs-target="#skillsModal"
+				>
+					<p>Skills</p>
+				</div>
 
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="cv-headingTwo" type="button" data-bs-toggle="collapse" data-bs-target="#cv-collapseTwo" aria-expanded="false" aria-controls="cv-collapseTwo">
-                      Education
-                    </h2>
-                    <div id="cv-collapseTwo" class="accordion-collapse collapse" aria-labelledby="cv-headingTwo" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">
-                        <h5>Business Management and Administration</h5>
-                        Vilnius University<br>
-                        Vilnius, Lithuania
-                      </div>
-                    </div>
-                  </div>
+				<div
+					class="modal fade"
+					id="skillsModal"
+					tabindex="-1"
+					aria-labelledby="exampleModalLabel"
+					aria-hidden="true"
+				>
+					<div class="modal-dialog modal-xl modal-dialog-scrollable">
+						<div class="modal-content modalblur">
+							<div class="modal-header">
+								<button
+									type="button"
+									class="btn-close btn-close-white"
+									data-bs-dismiss="modal"
+									aria-label="Close"
+								></button>
+							</div>
+							<div class="modal-body">
+								<div class="accordion accordion-flush">
+									<div class="accordion-item">
+										<h2
+											class="accordion-header"
+											id="skill-headingOne"
+											type="button"
+											data-bs-toggle="collapse"
+											data-bs-target="#skill-collapseOne"
+											aria-expanded="false"
+											aria-controls="skill-collapseOne"
+										>
+											Languages
+										</h2>
+										<div
+											id="skill-collapseOne"
+											class="accordion-collapse collapse"
+											aria-labelledby="skill-headingOne"
+											data-bs-parent="#accordionFlushExample"
+										>
+											<div class="accordion-body">
+												Russian ⦿⦿⦿⦿⦿<br />
+												English ⦿⦿⦿⦿⦾<br />
+												Lithuanian ⦿⦿⦿⦿⦿<br />
+												German ⦿⦿⦿⦾⦾<br />
+											</div>
+										</div>
+									</div>
 
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="cv-headingThree" type="button" data-bs-toggle="collapse" data-bs-target="#cv-collapseThree" aria-expanded="false" aria-controls="cv-collapseThree">
-                      Work Experience
-                    </h2>
-                    <div id="cv-collapseThree" class="accordion-collapse collapse" aria-labelledby="cv-headingThree" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">
-                        <h5>Warehouse Worker/Manager</h5>
-                        Komandor - Vilnius,
-                        Lithuania - 05.2012 – 09.2013<br>
-                        Started as a warehouse
-                        worker, after a year was promoted to a manager
-                        position. Ready-to-pickup furniture warehouse where
-                        up to 100 orders were stored. As a manager applied
-                        new stock control system using Excel and together with
-                        GM optimised storage.<br>
-                        <h5>Sales Representative</h5>
-                        Portus Logistika - Vilnius, Lithuania
-                        - 09.2013 – 01.2014<br>
-                        Sales for logistics company. Coldcalling
-                        sales and email offers to Kazakhstan.<br>
-                        <h5>Waiter/ Head waiter/ Restaurant Manager</h5>
-                        Nordic Entertainment - Vilnius, Lithuania - 05.2014 – 09.2017<br>
-                        Started as a waiter in central located modern Bar&Grill
-                        restaurant. After a year was promoted to head waiter
-                        after two to a manager position. As a manager was
-                        responsible for social media marketing and
-                        communication, recruiting, guest relations, invoice
-                        issuing, reservations management and shift service
-                        supervision. In the time, we managed to reach the alltime-
-                        high shift revenue of 22k euro.<br>
-                        <h5>Restaurant Manager</h5>
-                        Juta Jazz Kava - Vilnius, Lithuania -
-                        10.2017 – 04.2018<br>
-                        The biggest at the time restaurant in
-                        the city, sitting up to 1000 people. I was responsible for
-                        shift service supervision, guest relations, reservations
-                        management, invoice issuing and preparations for
-                        events we were hosting.
-                        <h5>Chef De Rang</h5>
-                        <p>Hilton Munich Park - Munich, Germany -
-                          06.2018 – 09.2022<br>
-                          First job in Germany. As a Chef De
-                          Rang was responsible for shift service supervision,
-                          reservations management, preparations for events and
-                          staff training.</p>
-                      </div>
-                    </div>
-                  </div>
+									<div class="accordion-item">
+										<h2
+											class="accordion-header"
+											id="skill-headingTwo"
+											type="button"
+											data-bs-toggle="collapse"
+											data-bs-target="#skill-collapseTwo"
+											aria-expanded="false"
+											aria-controls="skill-collapseTwo"
+										>
+											Courses
+										</h2>
+										<div
+											id="skill-collapseTwo"
+											class="accordion-collapse collapse"
+											aria-labelledby="skill-headingTwo"
+											data-bs-parent="#accordionFlushExample"
+										>
+											<div class="accordion-body">
+												CareerFoundry Full Stack Web Development course<br />
+												The Odin Project<br />
+												freeCodeCamp<br />
+											</div>
+										</div>
+									</div>
 
-                </div>
+									<div class="accordion-item">
+										<h2
+											class="accordion-header"
+											id="skill-headingThree"
+											type="button"
+											data-bs-toggle="collapse"
+											data-bs-target="#skill-collapseThree"
+											aria-expanded="false"
+											aria-controls="skill-collapseThree"
+										>
+											Soft Skills
+										</h2>
+										<div
+											id="skill-collapseThree"
+											class="accordion-collapse collapse"
+											aria-labelledby="skill-headingThree"
+											data-bs-parent="#accordionFlushExample"
+										>
+											<div class="accordion-body">
+												<ul class="skills-ul">
+													<li class="skillsli">Customer service</li>
+													<li class="skillsli">Sales</li>
+													<li class="skillsli">Management</li>
+													<li class="skillsli">Leadership</li>
+												</ul>
+											</div>
+										</div>
+									</div>
 
-                <div class="downloadlinks">
-                  <a class="pdflinks" target="_blank" href="https://www.dropbox.com/s/s52yccnpw90wk6m/VitaliyCV1.pdf?dl=0"><img src="images/pdf.png" alt="pdf_icon"><br>Download CV</a>
-                </div>
+									<div class="accordion-item">
+										<h2
+											class="accordion-header"
+											id="skill-headingFour"
+											type="button"
+											data-bs-toggle="collapse"
+											data-bs-target="#skill-collapseFour"
+											aria-expanded="false"
+											aria-controls="skill-collapseFour"
+										>
+											Hard Skills
+										</h2>
+										<div
+											id="skill-collapseFour"
+											class="accordion-collapse collapse"
+											aria-labelledby="skill-headingFour"
+											data-bs-parent="#accordionFlushExample"
+										>
+											<div class="accordion-body">
+												<ul class="skills-ul">
+													<li class="skillsli">Windows, MacOS</li>
+													<li class="skillsli">MS Office</li>
+													<li class="skillsli">
+														HTML, CSS, Bootstrap, JavaScript
+													</li>
+													<li class="skillsli">
+														JSON, Node.js, Express, React, React Native, Angular
+													</li>
+													<li class="skillsli">PostgreSQL, MongoDB</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-              </div>
+		<footer id="footer">
+			<div class="footer">
+				<a
+					class="contact github"
+					href="https://github.com/vporsnev"
+					target="_blank"
+					><i class="socialicon fab fa-github"></i
+				></a>
+				<a
+					class="contact linkedin"
+					href="https://www.linkedin.com/in/vitalijporshnev/"
+					target="_blank"
+					><i class="socialicon fab fa-linkedin"></i
+				></a>
+				<a
+					class="contact gmail"
+					href="mailto:v.porshnev@gmail.com"
+					target="_blank"
+					><i class="socialicon fas fa-envelope"></i
+				></a>
+			</div>
+		</footer>
 
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="skills card" data-bs-toggle="modal" data-bs-target="#skillsModal">
-        <p>Skills</p>
-      </div>
-
-      <div class="modal fade" id="skillsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl modal-dialog-scrollable">
-          <div class="modal-content modalblur">
-            <div class="modal-header">
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-
-              <div class="accordion accordion-flush">
-
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="skill-headingOne" type="button" data-bs-toggle="collapse" data-bs-target="#skill-collapseOne" aria-expanded="false" aria-controls="skill-collapseOne">
-                    Languages
-                  </h2>
-                  <div id="skill-collapseOne" class="accordion-collapse collapse" aria-labelledby="skill-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                      Russian ⦿⦿⦿⦿⦿<br>
-                      English ⦿⦿⦿⦿⦾<br>
-                      Lithuanian ⦿⦿⦿⦿⦿<br>
-                      German ⦿⦿⦿⦾⦾<br>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="skill-headingTwo" type="button" data-bs-toggle="collapse" data-bs-target="#skill-collapseTwo" aria-expanded="false" aria-controls="skill-collapseTwo">
-                    Courses
-                  </h2>
-                  <div id="skill-collapseTwo" class="accordion-collapse collapse" aria-labelledby="skill-headingTwo" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                      CareerFoundry Full Stack Web Development course<br>
-                      The Odin Project<br>
-                      freeCodeCamp<br>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="skill-headingThree" type="button" data-bs-toggle="collapse" data-bs-target="#skill-collapseThree" aria-expanded="false" aria-controls="skill-collapseThree">
-                    Soft Skills
-                  </h2>
-                  <div id="skill-collapseThree" class="accordion-collapse collapse" aria-labelledby="skill-headingThree" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                      <ul class="skills-ul">
-                        <li class="skillsli"> Customer service
-                        <li class="skillsli"> Sales
-                        <li class="skillsli"> Management
-                        <li class="skillsli"> Leadership
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="skill-headingFour" type="button" data-bs-toggle="collapse" data-bs-target="#skill-collapseFour" aria-expanded="false" aria-controls="skill-collapseFour">
-                    Hard Skills
-                  </h2>
-                  <div id="skill-collapseFour" class="accordion-collapse collapse" aria-labelledby="skill-headingFour" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                      <ul class="skills-ul">
-                        <li class="skillsli"> Windows, MacOS
-                        <li class="skillsli"> MS Office
-                        <li class="skillsli"> HTML, CSS, Bootstrap, JavaScript
-                        <li class="skillsli"> JSON, Node.js, Express, React, React Native, Angular
-                        <li class="skillsli"> PostgreSQL, MongoDB
-                      </ul>
-
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer id="footer">
-    <div class="footer"><a class="contact github" href="https://github.com/vporsnev" target="_blank"><i class="socialicon fab fa-github"></i></a> <a class="contact linkedin" href="https://www.linkedin.com/in/vitalijporshnev/" target="_blank"><i
-          class="socialicon fab fa-linkedin"></i></a> <a class="contact gmail" href="mailto:v.porshnev@gmail.com" target="_blank"><i class="socialicon fas fa-envelope"></i></a>
-    </div>
-  </footer>
-
-  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-  <script src="js/scripts.js"></script>
-</body>
-
+		<script
+			src="https://code.jquery.com/jquery-3.6.0.js"
+			integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+			integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+			integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+			crossorigin="anonymous"
+		></script>
+		<script src="js/scripts.js"></script>
+	</body>
 </html>
