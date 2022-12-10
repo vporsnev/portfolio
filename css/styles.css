@@ -96,7 +96,7 @@ a {
 }
 
 .projects {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)),
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
 		url(../images/img_20.jpeg);
 	background-position: center;
 	background-size: cover;
@@ -126,36 +126,36 @@ a {
 	margin-top: 10px;
 }
 
-.work {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)),
-		url(../images/img_30.jpeg);
-	background-position: center;
-	background-size: cover;
-	position: relative;
-	transform: translateY(-100px);
-	opacity: 0;
-	transition: 1.5s all ease;
-	z-index: 1;
-}
-
-.work.active {
-	transform: translateY(0);
-	opacity: 1;
-}
-
 .skills {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)),
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
 		url(../images/img_40.jpeg);
 	background-position: center;
 	background-size: cover;
 	position: relative;
 	transform: translateY(-100px);
 	opacity: 0;
-	transition: 2s all ease;
+	transition: 1.5s all ease;
 	z-index: 0;
 }
 
 .skills.active {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+.work {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+		url(../images/img_30.jpeg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	transform: translateY(-100px);
+	opacity: 0;
+	transition: 2s all ease;
+	z-index: 1;
+}
+
+.work.active {
 	transform: translateY(0);
 	opacity: 1;
 }
@@ -248,14 +248,14 @@ a {
 
 .project-pic {
 	margin: 20px auto 20px auto;
-	width: 500px;
+	width: 31.25em;
 	object-fit: cover;
 }
 
 .pic {
 	border-radius: 10px;
-	width: 500px;
-	height: 300px;
+	width: 31.25em;
+	height: 18.75em;
 	object-fit: cover;
 }
 
@@ -324,6 +324,35 @@ bi-circle-fill {
 	font-size: 12px;
 }
 
+.code-skills {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.tech {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+}
+
+.tech p {
+	width: 200px;
+}
+
+.progress {
+	margin-left: 10px;
+	width: 200px;
+	height: 1.5rem;
+	border: 1px solid;
+	background-color: transparent;
+}
+
+.progress-bar {
+	background-color: rgb(91, 91, 91);
+}
+
 #footer {
 	text-align: center;
 	display: flex;
@@ -354,12 +383,17 @@ bi-circle-fill {
 		margin: 20px;
 	}
 
-	.project-pic {
-		width: 300px;
-	}
-
 	.carousel-control {
 		height: auto;
+	}
+
+	.project-pic {
+		width: 25.25em;
+	}
+
+	.pic {
+		width: 25.25em;
+		height: 13.75em;
 	}
 
 	.carousel-control-prev-icon,
@@ -388,7 +422,12 @@ bi-circle-fill {
 	}
 
 	.project-pic {
-		width: 350px;
+		width: 25.25em;
+	}
+
+	.pic {
+		width: 25.25em;
+		height: 13.75em;
 	}
 
 	.carousel-control {
@@ -422,11 +461,6 @@ bi-circle-fill {
 		margin: auto;
 	}
 
-	.project-pic {
-		width: 250px;
-		object-fit: cover;
-	}
-
 	.carousel-control {
 		height: auto;
 	}
@@ -445,6 +479,15 @@ bi-circle-fill {
 		background-size: cover;
 	}
 
+	.project-pic {
+		width: 18.25em;
+	}
+
+	.pic {
+		width: 18.25em;
+		height: 9.75em;
+	}
+
 	.grid {
 		margin: 100px 20px 100px 20px;
 		grid-template-columns: 1fr;
@@ -461,6 +504,14 @@ bi-circle-fill {
 
 	.skills-ul {
 		margin: 0;
+	}
+
+	.tech p {
+		width: 150px;
+	}
+
+	.progress {
+		width: 150px;
 	}
 }
 
@@ -483,10 +534,6 @@ bi-circle-fill {
 		margin: 20px;
 		background-repeat: no-repeat;
 		background-size: cover;
-	}
-
-	.project-pic {
-		width: 300px;
 	}
 
 	.carousel-control {
@@ -524,10 +571,6 @@ bi-circle-fill {
 		margin: 20px;
 		background-repeat: no-repeat;
 		background-size: cover;
-	}
-
-	.project-pic {
-		width: 350px;
 	}
 
 	.carousel-control {
