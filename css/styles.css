@@ -378,6 +378,11 @@ bi-circle-fill {
 	color: black;
 }
 
+.accordion-body a {
+	color: white;
+	text-decoration: underline;
+}
+
 @media screen and (max-width: 600px) {
 	.hero-image {
 		margin: 20px;
