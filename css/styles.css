@@ -466,34 +466,15 @@ a {
 	}
 
 	.typed-out {
-		font-size: 1rem;
+		font-size: 1.5rem;
 	}
 
 	.typed-out2 {
-		font-size: 1rem;
+		font-size: 2rem;
 	}
 
 	.typed-out3 {
-		font-size: 1rem;
-	}
-
-	@keyframes typing {
-		from {
-			width: 0;
-			text-align: center;
-		}
-		to {
-			width: 300px;
-		}
-	}
-	@keyframes typing2 {
-		from {
-			width: 0;
-			text-align: center;
-		}
-		to {
-			width: 300px;
-		}
+		font-size: 1.2rem;
 	}
 
 	.project-pic {
