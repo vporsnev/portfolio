@@ -499,24 +499,8 @@ h5 {
 		grid-gap: 50px;
 	}
 
-	.workname {
-		font-size: 12px;
-	}
-
-	.worktasks {
-		font-size: 12px;
-	}
-
-	.skills-ul {
-		margin: 0;
-	}
-
-	.tech p {
-		width: 150px;
-	}
-
-	.progress {
-		width: 150px;
+	.accordion-header {
+		margin-left: 0;
 	}
 }
 
@@ -556,14 +540,6 @@ h5 {
 		margin: 100px 20px 100px 20px;
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-gap: 20px;
-	}
-
-	.workname {
-		font-size: 12px;
-	}
-
-	.worktasks {
-		font-size: 12px;
 	}
 }
 
