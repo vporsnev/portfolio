@@ -143,6 +143,10 @@ a {
 	margin-top: 20px;
 }
 
+.accordion-header {
+	background-color: transparent;
+}
+
 .accordion-body a {
 	color: white;
 	text-decoration: underline;
