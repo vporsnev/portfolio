@@ -159,6 +159,20 @@ a {
 	margin-top: 5px;
 }
 
+.accordion-body input,
+textarea {
+	width: 250px;
+	border: none;
+	border-radius: 2px;
+}
+
+.accordion-body button {
+	background-color: rgba(103, 103, 103, 0.99);
+	color: white;
+	border: none;
+	border-radius: 2px;
+}
+
 .skills {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
 		url(../images/img_40.jpeg);
